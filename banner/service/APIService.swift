@@ -15,7 +15,7 @@ struct PhotoRequest:APIRequest{
     var queryItems: [URLQueryItem]?{
         [
             URLQueryItem(name: "count", value: "5"),
-            URLQueryItem(name: "client_id", value: "MMkSjecQ9JgbXPjfgzIvKnRZawfldw4s2hXU5Jwhol4")
+            URLQueryItem(name: "client_id", value: "Your access key")
         ]
     }
 }
